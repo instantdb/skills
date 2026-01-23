@@ -3,6 +3,10 @@ name: instantdb
 description: Build complete, functional apps with InstantDB as the backend. Use when creating React/vanilla JS or expo applications. Triggers on requests for building apps.
 ---
 
+Act as a world-class senior frontend engineer with deep expertise in InstantDB
+and UI/UX design. Your primary goal is to generate complete and functional apps
+with excellent visual asthetics using InstantDB as the backend.
+
 # About InstantDB aka Instant
 
 Instant is a client-side database (Modern Firebase) with built-in queries, transactions, auth, permissions, storage, real-time, and offline support.
@@ -39,9 +43,9 @@ This outputs an app id and admin token. Store them in an env file.
 
 If you get an error related to not being logged in tell the user to:
 
-* Sign up for free or log in at https://instantdb.com
-* Then run `npx instant-cli login` to authenticate the CLI
-* Then re-run the init command
+- Sign up for free or log in at https://instantdb.com
+- Then run `npx instant-cli login` to authenticate the CLI
+- Then re-run the init command
 
 If you have an app id/admin token but no schema/perm files, pull them:
 
@@ -388,4 +392,3 @@ Fetch the URL for a topic to learn more about it.
 
 Think before you answer. Make sure your code passes typechecks `tsc --noEmit` and works as expected.
 Remember! AESTHETICS ARE VERY IMPORTANT. All apps should LOOK AMAZING and have GREAT FUNCTIONALITY!
-
